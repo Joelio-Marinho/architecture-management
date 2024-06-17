@@ -24,7 +24,6 @@ public class Project implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address",referencedColumnName = "id")
     private Address address;

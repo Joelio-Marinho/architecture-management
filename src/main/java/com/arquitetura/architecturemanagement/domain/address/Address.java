@@ -21,6 +21,9 @@ public class Address implements Serializable {
     private Integer id;
 
     @Column
+    private String cep;
+
+    @Column
     private String city;
 
     @Column

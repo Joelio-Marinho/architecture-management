@@ -1,7 +1,7 @@
 package com.arquitetura.architecturemanagement.domain.user.Enum;
 
 public enum Role {
-    ARCHITECT("architect"),
+    ADMIN("admin"),
     CLIENT("client");
 
     private String role;
